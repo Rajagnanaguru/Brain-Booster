@@ -41,18 +41,18 @@ class higs{
 	int scor;
 	public:
 	void take(){
-	cout<<"enter your name\n";
-	gets(player);
-	scor=sc;
+		cout<<"enter your name\n";
+		gets(player);
+		scor=sc;
 	}
 	void board(){
-	cout<<"\tPLAYER NAME:"<<player<<'\t'<<"-"<<'\t'<<scor<<'\n';
+		cout<<"\tPLAYER NAME:"<<player<<'\t'<<"-"<<'\t'<<scor<<'\n';
 	}
 	int acce(){
-	return scor;
+		return scor;
 	}
 	char * asse(){
-	return player;
+		return player;
 	}
 }h1,h2;
 
